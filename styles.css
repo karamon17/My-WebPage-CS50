@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+A {
+    color: black; /* Цвет ссылок */
+    text-decoration: none;
+   }
+A:visited {
+    color: black; /* Цвет посещенных ссылок */
+    text-decoration: none;
+   }
+A:active {
+    color: red; /* Цвет активных ссылок */
+   }
+.avatar {
+    width: 500px;
+    border-radius: 28px;
+}
+.youtube {
+    width: 130px;
+    margin: 15px;
+}
+.youtube1:hover {
+    opacity: 0.8;
+}
+
+.youtube2:hover {
+    opacity: 0.8;
+}
+
+.channels {
+    display: flex;
+    justify-content: center;
+}
+
+.info p, .textmargo{
+    color: #86898f
+    font-weight: bold;
+    margin-top: 10px;
+    background: aquamarine;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.info {
+    margin-left: 20px;
+}
+
+.info-page {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 820px) {
+    .info-page {
+        display: block;
+    }
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+.form-group label {
+    display: block;
+}
+
+.hobby {
+    padding-bottom: 25px;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+}
+
+.mybtn {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mybtn:hover {
+    opacity: 0.8;
+}
+
+.back {
+    margin-bottom: 50px;
+}
+
+.video {
+    width: 900px;
+}
+
+.slide {
+    margin-top: -70px;
+    font-size: 20px;
+    font-weight: bold;
+}

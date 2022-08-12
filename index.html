@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+    </head>
+    <body>
+        <div class="info-page">
+            <div>
+                <img src="gev0.jpg" alt="Тут моя фотка" class="avatar"  id="gevimg"/>
+                <button onclick="slide()" class="btn btn-light mybtn slide" id="slider">Другое фото</button>
+            </div>
+            <div class="info">
+                <h1>Hello! This is Gevorg</h1>
+                <h4>About me</h4>
+                <p><em>I am 29 years old and I am a beginner programmer. I code in <strong>python, javaScript, HTML, CSS, SQL. </strong></em></p>
+                <p>I work as a youtube blogger before developing. I have a couple of channels with a total of 1.5 million subscribers.</p>
+                <button type="button" class="btn btn-light mybtn"><a href="Contacts.html">My contacts</a></button>
+            </div>
+        </div>
+        <h4>My youtube channels</h4>
+        <div class="channels">
+            <div class="youtube1">
+                <a href="margotops.html"><img src="margotops.png" class="youtube"/></a>
+            </div>
+            <div class="youtube2">
+                <a href="it_is_interesting.html"><img src="it_is_interesting.png" class="youtube" /></a>
+            </div>
+        </div>
+        <div class="hobby">
+            <h4>My hobby</h4>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-danger">Roller, bicycle, ski, tennis, football, volleyball</li>
+                <li class="list-group-item list-group-item-primary">Travelling</li>
+                <li class="list-group-item list-group-item-secondary">Yoga</li>
+                <li class="list-group-item list-group-item-success">Cryptocurrency</li>
+            </ul>
+        </div>
+        <h4>Write me</h4>
+        <div class="connect">
+            <form action="">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="letter">Your name:</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your email:</label>
+                        <input type="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="text">Text:</label>
+                        <textarea type="text" id="text"></textarea>
+                    </div>
+                </div>
+                <input class="btn btn-light mybtn" type="submit" value="Send" id="send">
+            </form>
+        </div>
+        <script src="dinamic.js"></script>
+    </body>
+</html>
